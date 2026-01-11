@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="box">
+    <input id="display" readonly>
+
+    <button onclick="appdisplay('7')" class="math">7</button>
+    <button onclick="appdisplay('4')" class="math">4</button>
+    <button onclick="appdisplay('1')" class="math">1</button>
+    <button onclick="appdisplay('0')" class="math">0</button>
+
+    <button onclick="appdisplay('8')" class="math">8</button>
+    <button onclick="appdisplay('5')" class="math">5</button>
+    <button onclick="appdisplay('2')" class="math">2</button>
+    <button onclick="appdisplay('.')" class="math">.</button>
+
+    <button onclick="appdisplay('9')" class="math">9</button>
+    <button onclick="appdisplay('6')" class="math">6</button>
+    <button onclick="appdisplay('3')" class="math">3</button>
+    <button onclick="reset()" class="math">C</button>
+
+    <button onclick="appdisplay('/')" class="math" id="sys">/</button>
+    <button onclick="appdisplay('*')" class="math" id="sys">*</button>
+    <button onclick="appdisplay('-')" class="math" id="sys">-</button>
+    <button onclick="appdisplay('+')" class="math" id="sys">+</button>
+
+    <button onclick="cac()" class="math" id="sys">=</button>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
