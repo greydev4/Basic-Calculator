@@ -12,8 +12,8 @@ body {
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: 120px repeat(5, 100px);
     gap: 10px;
-    background-color: rgb(46, 46, 46);
     padding: 10px;
+    background-color: #222;
     border-radius: 15px;
 }
 
@@ -33,7 +33,7 @@ body {
     height: 100%;
     font-size: 2em;
     cursor: pointer;
-    border-radius: 20em;
+    border-radius: 15px;
     color: white;
     background-color: grey;
     border: none;
